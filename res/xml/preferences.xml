@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory 
+        android:title="Compression"
+        android:key="compression_settings">  
+    <CheckBoxPreference
+        android:key="ZIP"
+        android:title="Enable ZIP"
+        android:summary="Enable Compression before file transfers"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="GZIP"
+        android:title="Enable GZIP"
+        android:summary="Enable Compression before file transfers"
+        android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
